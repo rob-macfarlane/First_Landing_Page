@@ -2,18 +2,105 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh; /* this means 100% of viewport and is key to having footer align to bottom of screen */
+    margin: 0;
     justify-content: space-between;
+    /* background-color: black;     */
+    align-items: center;
+
 } 
 
 
+.header, .section-one,
+.section-two, .section-three, 
+.section-four, .footer {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
 .overall-layout {
-    flex: 1 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    flex: auto;
     flex-direction: column;
+    width: 1000px;
+    flex: 1 0 auto;    
  }
 
+ .header {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    font-size: 24px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.link-list li {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: red;
+}
+
+ .section-one {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-between;
+    background-color: #1f2937;
+ }
+
+ .section-one img{
+    display: flex;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+ }
+
+ .box-one {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .box-one h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px;
+ }
+
+ .box-one p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+ }
+
+ .box-two {
+    display: flex;
+    align-items: center;
+    justify-content: fle;
+    align-content: center;
+ }
+ /* Need to remove this code */
  /* .content {
     flex: 1 0 auto;
     display: flex;
@@ -21,32 +108,19 @@ body {
     justify-content: center;
     flex-direction: column;
   } */
+/* 
   
- 
-/* .header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #1f2937;
-    color: white;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-} */
-/* 
-ul {
-    display: flex;
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-} */
-/* 
 .section-one-content {
     display: flex;
     background-color: #1f2937;
     flex: 1 0 auto;
+    justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
 } */
+ 
+
+
 /* 
 .box-one {
     display: flex;
@@ -68,10 +142,18 @@ ul {
     background-color: rgb(235, 219, 219);
 } */
 
+.section-three {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
 .footer {
     display: flex;
     flex: 1;
     align-items: flex-end;
-    margin: 20px;
+    /* margin:-10px; */
+    padding: 10px;
 
 }
