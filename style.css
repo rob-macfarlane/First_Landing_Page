@@ -4,7 +4,7 @@ body {
     height: 100vh; /* this means 100% of viewport and is key to having footer align to bottom of screen */
     margin: 0;
     justify-content: space-between;
-    /* background-color: black;     */
+    background-color: black;    
     align-items: center;
 
 } 
@@ -32,7 +32,6 @@ body {
     color: #F9FAF8;
     background-color: #1f2937;
     font-size: 24px;
-
 }
 
 ul {
@@ -82,7 +81,7 @@ a:hover, a:active {
     justify-content: center;
  }
  .box-one h2 {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bolder;
     color: #F9FAF8;
     margin: 0px;
@@ -118,6 +117,7 @@ a:hover, a:active {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+    background-color: white;
  }
 
  .section-title {
@@ -136,12 +136,6 @@ a:hover, a:active {
  .section-two-photos img {
     width: 100px;
     margin-bottom: 10px;
-
- }
-
- .img-container text {
-    display: flex;
-    text-align: center;
  }
 
  .img-container {
@@ -149,11 +143,10 @@ a:hover, a:active {
     flex: auto;
     flex-direction: column;
     justify-content: space-evenly;
-    align-content: stretch;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 0px;
  }
 
  .section-three {
@@ -161,8 +154,12 @@ a:hover, a:active {
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* font-style: italic; */
+    font-size: 22px;
+    /* font-weight: lighter; */
+    color: #1f2937;
  }
 
  .section-three h6 {
@@ -171,60 +168,45 @@ a:hover, a:active {
     padding: 0px;
     margin: 0px;
  }
- /* Need to remove this code */
- /* .content {
-    flex: 1 0 auto;
+
+.section-four {
+    background-color: white;
+}
+.blue-box {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  } */
-/* 
-  
-.section-one-content {
-    display: flex;
-    background-color: #1f2937;
-    flex: 1 0 auto;
+    flex: auto;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-} */
- 
+    background-color: #3882F6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #E5E7EB;
+    align-items: center;
+    padding: 30px;
+}
 
-
-/* 
-.box-one {
+.call-box-text {
     display: flex;
     flex-direction: column;
-    flex: auto;
-    color: white;
-    align-content: center;
-    justify-content: center;
-    
-} */
-/* .box-two {
-    display: flex;
-    flex: auto;
-    width: 200px;
-    height: 200px;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    background-color: rgb(235, 219, 219);
-} */
+}
 
-.section-three {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+.top-text {
+    font-weight: 800;
+}
+
+.blue-box button {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
 }
 
 
 .footer {
     display: flex;
+    flex-direction: column;
     flex: 1;
-    align-items: flex-end;
     /* margin:-10px; */
     padding: 10px;
-
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
 }
