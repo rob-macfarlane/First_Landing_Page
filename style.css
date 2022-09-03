@@ -69,7 +69,7 @@ a:hover, a:active {
 
  .section-one img{
     display: flex;
-    width: 300px;
+    width: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -127,18 +127,49 @@ a:hover, a:active {
  .section-two-photos {
     display: flex;
     align-content: stretch;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* align-items: center; */
 
  }
 
 
  .section-two-photos img {
     width: 100px;
+    margin-bottom: 10px;
+
+ }
+
+ .img-container text {
+    display: flex;
+    text-align: center;
  }
 
  .img-container {
     display: flex;
+    flex: auto;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+ }
+
+ .section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ .section-three h6 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin: 0px;
  }
  /* Need to remove this code */
  /* .content {
